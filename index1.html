@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    
+    <title>Google Homepage</title>
+</head>
+<style>
+    body{
+        background-color:white;
+    }
+    header ul{
+        margin-left: 970px;
+        font-size: 13px;
+        color:rgb(51, 50, 50);
+        position:absolute;
+        font-family: 'Roboto', sans-serif;
+        cursor:pointer;
+        list-style: none;
+    }
+    header ul li{
+        margin-top:10px;
+        display: inline;
+        padding-right: 15px;
+    }
+    header ul li:hover{
+        text-decoration:underline;
+    }
+    .icon{
+        margin-left: 110px;
+        margin-bottom:50px;
+        margin-top:-18px;
+        height: 30px;
+        padding-left:8px;
+        color: black;
+    }
+    header button{
+        height:30px;
+        width:80px;
+        margin-left:5px;
+        margin-top: 0px;
+        background-color:rgb(38, 105, 248);
+        color:white;
+    }
+    
+    .text img{
+        margin-top:5%;
+        margin-left: 40%;
+        height:auto;
+        width:270px;
+    }
+    .search{
+        margin-left: 30%;
+        width:520px;
+        border-radius:50px;
+        height:43px;
+        border: 0.5px solid rgb(223, 217, 217);
+        margin-top: 25px;
+    }
+    .search:hover{
+        box-shadow:grey;
+        }
+    .input-icons i { 
+        position: absolute; 
+        margin-left: 400px;
+        margin-top: 37px;
+        cursor:pointer;
+        } 
+    button{
+        width:150px;
+        height: 40px;
+        margin-top:35px;
+        border-style: none;
+        background-color:rgb(248, 244, 244);
+        cursor:pointer;
+    }
+    button:hover{
+        border: 1px solid #ccc;
+    }
+    .languages{
+    display: flex;
+    margin-top: 30px;
+    margin-left:300px;
+    }
+    .languages li{
+    list-style: none;
+    margin: 0 5px;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    }
+    .languages li a{
+    text-decoration: none;
+    color: #1a0dab;
+    font-style: none;
+    }
+    .languages li a:hover{
+    text-decoration: underline;
+    }
+    
+    footer .footer {
+    position: fixed;
+    bottom: 0;
+    left: -5px;
+    width: 100%;
+    background: #f2f2f2;
+    padding: 5px;
+    font-family:arial;
+    font-size: 10pt;
+    height: 90px;
+}
+
+footer .footer .row {
+    padding: 1px;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    left: -10px;
+}
+
+footer .footer .row.row1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+    bottom: 0;
+    left: -10px;
+    display:block;
+}
+footer .footer .row.row1 ul {
+    display: flex;
+}
+footer .footer .row.row1 ul li {
+    list-style: none;
+    float: left;
+}
+footer .footer .row.row1 ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6368;
+    margin-left: 15px;
+    text-align: center;
+}
+footer .footer .row.row2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+    bottom: 0;
+    left: 0;
+}
+footer .footer .row.row2 ul {
+    display: flex;
+}
+footer .footer .row.row2 ul li {
+    list-style: none;
+    float: left;
+}
+footer .footer .row.row2 ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6368;
+    margin-left: 15px;
+    float: left;
+    text-align: center;
+}
+footer .footer .row.row2 ul:nth-child(2) li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6368;
+    margin-right: 20px;
+    text-align: center;
+}
+footer .footer .row.row2 ul li a:hover {
+  text-decoration: underline;
+}
+footer .footer .row.row2 ul:nth-child(2) li a:hover {
+  text-decoration: underline;
+}
+</style>
+<body>
+    <header>
+        <ul class="header">
+        <li>Gmail</li>
+        <li>Images</li>
+        <div class="icon">
+        <i class="fa fa-th" style="font-size:20px;color:rgb(63, 62, 62);"></i>
+    </div>
+        </ul>
+        <button style="margin-left:1170px;margin-top: 10px;">Sign In</button>
+    </header>
+    <div class="text">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Logo">
+        <div class="input-icons"> 
+        <i class="fa fa-search" style="font-size:18px;color:rgb(190, 185, 185)"></i> 
+        <img src="https://www.clipartkey.com/mpngs/m/27-272205_google-microphone-png-google-search-by-voice-icon.png "style="position: absolute;margin-left: 850px;margin-top: 37px;width: 20px;height: 20px;">
+        <input type="search" class="search"> 
+        </div>
+    </div>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <button>
+                Google Search
+            </button>
+            &nbsp; &nbsp;<button>
+                I'm Feeling Lucky
+            </button>
+            <ul class="languages">
+                <li>Google offered in:</li>
+                <li><a href="#">हिन्दी</a></li>
+                <li><a href="#">বাংলা</a></li>
+                <li><a href="#">తెలుగు</a></li>
+                <li><a href="#">मराठी</a></li>
+                <li><a href="#">தமிழ்</a></li>
+                <li><a href="#">ગુજરાતી</a></li>
+                <li><a href="#">ಕನ್ನಡ</a></li>
+                <li><a href="#">മലയാളം</a></li>
+                <li><a href="#">ਪੰਜਾਬੀ</a></li>
+            </ul>
+			
+    <footer>
+            <div class="footer">
+                <div class="row row1">
+        
+                    <ul>
+                        <li><a href="#">India</a></li>
+                    </ul>
+                </div>
+                <div class="row row2">
+                    <ul>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">How Search Works</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </ul>
+    
+                </div>
+    
+            </div>
+            
+    </footer>
+</body>
+</html>
